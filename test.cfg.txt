@@ -1,3 +1,5 @@
+# Configuration 
+
 # Specify parent folder location to store logs
 JOBSFOLDER=/home/sys_sbg_etl_qbf/qbf/jobs
 LOGSFOLDER=/home/sys_sbg_etl_qbf/qbf/jobs/logs
