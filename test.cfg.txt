@@ -5,7 +5,6 @@ JOBSFOLDER=/home/sys_sbg_etl_qbf/qbf/jobs
 LOGSFOLDER=/home/sys_sbg_etl_qbf/qbf/jobs/logs
 
 # Specify SMTP server address and credentials for emailing notification of jobs that succeeded or failed.
-SMTP_HOST=appmail.data.ie.intuit.net
 SMTP_PORT=
 
 # other paths
@@ -24,23 +23,4 @@ STAGE_DB=qbf_dm
 LEAD_DB=qbf_dm
 LENDER_LOAN_TABLEPREFIX=
 LENDER_TRANSACTION_TABLEPREFIX=
-
-# Specify the email address of recipients to which the notification will be sent to
-SENDER_EMAIL=noreply-qbfteam@intuit.com
-RECIPIENT_EMAIL=rafael_guerrero@intuit.com,Anton_Cuchta@intuit.com
-
-# Specify the email of address to receive preprocessing error reports
-PREPROCESSING_REPORT_EMAIL=rafael_guerrero@intuit.com,husain_misherghi@intuit.com,Anton_Cuchta@intuit.com
-VALIDATION_REPORT_EMAIL=rafael_guerrero@intuit.com,husain_misherghi@intuit.com,Anton_Cuchta@intuit.com
-
-# Specify lender email address
-LENDER_0003_EMAIL=
-LENDER_0005_EMAIL=
-LENDER_0007_EMAIL=
-LENDER_0010_EMAIL=
-LENDER_0018_EMAIL=
-LENDER_0019_EMAIL=
-LENDER_0020_EMAIL=
-LENDER_0023_EMAIL=
-LENDER_1003_EMAIL=
 
